@@ -259,3 +259,110 @@ main {
     font-size: 1.1rem;
     opacity: 0.9;
 }
+
+/* Let's Get In Touch Section */
+.contact-section {
+    padding: 80px 0px;
+    background: #eaeaf3;
+    background-size: cover;
+    background-position: center;
+    color: #252432;
+    margin-top: 25px;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.contact-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.contact-subtitle {
+    font-size: 18px;
+    opacity: 0.9;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 40px 32px 32px 32px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(76, 78, 100, 0.10);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #252432;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1.5px solid #e0e3eb;
+    border-radius: 8px;
+    background: #f7f8fa;
+    color: #252432;
+    font-size: 16px;
+    transition: border-color 0.2s, background 0.2s;
+    margin-bottom: 0;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4E47FF;
+    background: #fff;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #b0b3c6;
+    opacity: 1;
+}
+
+.get-touch-btn {
+    background: #4E47FF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s;
+}
+
+.get-touch-btn:hover {
+    background: white;
+    color: #4E47FF;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(70, 75, 255, 0.5);
+}
