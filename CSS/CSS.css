@@ -24,3 +24,100 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+/* Header Section */
+
+/* Navbar Section */
+.navbar {
+    padding: 15px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.logo h2 {
+    color: #4E47FF;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.signup-btn {
+    background: #4E47FF;
+    color: white;
+    border: 2px solid #4E47FF;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.signup-btn:hover {
+    background: white;
+    color: #4E47FF;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(78, 71, 255, 0.3);
+}
+
+/* Banner Section */
+.banner {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../Resources/HERO_BG.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.banner-content {
+    color: white;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.banner-heading {
+    font-family: "Raleway", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #252432;
+    text-shadow: none;
+}
+
+.stay-focused-btn {
+    background: #4E47FF;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(75, 70, 255, 0.3);
+}
+
+.stay-focused-btn:hover {
+    background: white;
+    color: #4E47FF;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(70, 75, 255, 0.5);
+}
